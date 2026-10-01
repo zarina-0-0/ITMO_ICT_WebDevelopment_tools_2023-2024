@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS parsed_pages (
+    id SERIAL PRIMARY KEY,
+    url TEXT NOT NULL,
+    title TEXT NOT NULL
+);
