@@ -22,7 +22,7 @@ jobs:
           python-version: "3.x"
 
       - name: Install MkDocs
-        run: pip install mkdocs
+        run: pip install mkdocs mkdocs-material
 
       - name: Build and deploy MkDocs
         working-directory: students/K3439/Biktagirova_Zarina/web26_labiki
